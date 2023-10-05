@@ -1,0 +1,38 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+  }
+
+html{
+    background-color: transparent;
+}
+
+.NavLinks{
+    margin: 20px auto;
+    width:400px;
+    height:400px;
+    display:grid;
+    grid-template-columns: 200px 200px;
+    grid-row: auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    .Link{
+      align-items:center;
+      border-radius: 5px;
+      color: #ffb300;
+      display:flex;
+      font-family:'Village';
+      font-size:3em;
+      justify-content:center;
+      padding:20px;
+      text-decoration: none;
+      text-shadow: 2.5px 2.5px 2px #b71c1c;
+    }
+    
+    .Link:hover{
+      background-color: #ffb300;
+      color: #b71c1c;
+      text-shadow: 5px 5px 2px whitesmoke;
+    }
+  }

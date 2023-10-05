@@ -1,0 +1,45 @@
+.App {
+  align-items: center;
+  background-color: #cddc39;
+  color: #212121;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  background-image: url('../../assets/images/Chicken-Butt-logo-modern.png');
+  background-position: 10% 5%;
+  background-repeat: no-repeat;
+  background-size: 20%;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@font-face {
+  font-family: 'Village';
+  src: local('Village'),
+    url('../../assets/fonts/Village.ttf') format('ttf');
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
