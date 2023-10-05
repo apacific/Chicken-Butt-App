@@ -1,5 +1,5 @@
 # Chicken-Butt-App
-![chicken butt logo](src\assets\images\Chicken-Butt-logo-modern.png?raw=true)
+![chicken butt logo](src/assets/images/Chicken-Butt-logo-modern.png?raw=true)
 
 Proof of concept for a frontend web application intended to serve as a digital marketing tool for a fictional funk band, "Chicken Butt."
 
