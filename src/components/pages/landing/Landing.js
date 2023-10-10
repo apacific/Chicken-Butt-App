@@ -1,10 +1,16 @@
-import Logo from '../../../assets/images/Chicken-Butt-logo-modern.png';
+import Logo from '../../../assets/images/CB-logo.png';
+import Styles from './Landing.module.css'
 
 const Landing = () => {
     return (
-        <div>
-            <a href='/home'>
-                <img src={Logo} alt='logo' />
+        <div className={Styles.Landing}>
+            <a className={Styles.Link} href='/home'>
+                <div>
+                    <img src={Logo} alt='logo' />
+                </div>
+                <div>
+                    enter
+                </div>
             </a>
         </div>
     )
