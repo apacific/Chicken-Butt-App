@@ -5,6 +5,7 @@ import Landing from '../pages/landing/Landing';
 import Media from '../pages/media/Media';
 import Members from '../pages/members/Members';
 import Nav from '../nav/Nav';
+import Note from '../pages/napkin/Napkin';
 import Press from '../pages/press/Press';
 import Styles from './App.module.css';
 
@@ -19,6 +20,7 @@ const App = () => {
             <Route path='/about' element={<About />} />
             <Route path='/media' element={<Media />} />
             <Route path='/members' element={<Members />} />
+            <Route path='/napkin' element={<Note />} />
             <Route path='/press' element={<Press />} />
           </Routes>
         </BrowserRouter>

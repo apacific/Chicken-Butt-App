@@ -22,7 +22,15 @@
 @font-face {
   font-family: 'Village';
   src: local('Village'),
-    url('../../assets/fonts/Village.ttf') format('ttf');
+    url('../../assets/fonts/Village.ttf'),
+    format('ttf');
+}
+
+@font-face {
+  font-family: 'Satisfy';
+  src: local('Satisfy'),
+    url('../../assets/fonts/Satisfy-Regular.ttf'),
+    format('ttf');
 }
 
 @keyframes App-logo-spin {

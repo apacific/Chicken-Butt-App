@@ -1,0 +1,23 @@
+.About {
+    display: inline-block;
+    font-family: 'Satisfy';
+    margin: 3em;
+}
+
+.Logo {
+    margin-bottom: 1.5em;
+}
+
+.Story {
+    max-width: 75%;
+}
+
+.Story a {
+    color: orangered;
+    text-decoration: none;
+}
+
+.Story a:hover {
+    font-weight: 700;
+    text-shadow: 1px 1px 1px limegreen;
+}
